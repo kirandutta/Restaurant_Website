@@ -1,0 +1,91 @@
+/* Navigation Section */
+
+.nav1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo img{
+    height: 40px;
+    width: 40px;    
+}
+
+.nav1 ul li{
+    padding: 5px 5px;
+}
+
+/* Home Section */
+#home{
+    padding: 1px;
+    height:auto;
+}
+
+#home::before{
+    height:315px;
+    opacity:0.79;
+}
+
+#home p{
+    text-align: center;
+    font-size: 14px;
+}
+
+.head1{
+    font-size:20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+button{
+    font-size:13px;
+}
+
+/* Services Section */
+
+#services{
+    margin-top: 8px;
+}
+
+.yyy{
+    height:50px;
+    width:50px;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+/* Clients Section */
+.sub{
+    height: 50px;
+    width:50px;
+    padding:5px;
+    margin:5px;
+}
+
+#clients{
+    margin-bottom: 65px;
+}
+
+
+#clients::before{
+    height: 150px;
+}
+
+/* Contact Section */
+.contact{
+    margin:1px;
+    padding:1px;
+    /* width:50%; */
+    font-size: 14px;
+}
+
+/* Founder Section */
+.foun{
+    font-size: 14px;
+}
+
+foun img{
+    height:100px;
+    width:50px;
+}

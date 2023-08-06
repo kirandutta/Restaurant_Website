@@ -1,0 +1,211 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Alkatra', cursive;
+font-family: 'Poppins', sans-serif;
+}
+/* Navigation Section */
+.nav1 {
+    display: flex;
+    background-color: rgb(68 72 72 / 68%);
+    position: sticky;
+    top:0px;
+    left:0px;
+}
+
+#logo img {
+    height: 75px;
+    width: 75px;
+    
+}
+
+.nav1 ul {
+    display: flex
+}
+
+.nav1 ul li {
+    list-style: none;
+    margin: 3px;
+    padding: 25px 40px;
+
+}
+
+.nav1 ul li a {
+    text-decoration: none;
+    color:white;
+}
+.nav1 ul li a:hover {
+    color:black;
+    background-color: white;
+}
+
+/* Home section */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    height:200px;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('Food1.jpg') no-repeat center center/cover;
+    z-index: -1;
+    width: 100%;
+    opacity: 0.9;
+    height:275px;
+    left: 0px;
+    top:0px;
+}
+.head1{
+    font-size: 2rem;
+    color:brown;
+    text-decoration: underline;
+}
+#home p{
+    text-align: center;
+    color:brown;
+}
+button{
+    margin:5px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    color:white;
+    background-color: black;
+}
+
+/* Our Services */
+#xxx{
+    /* padding:100px; */
+    /* color:white; */
+    justify-content: center;
+    align-items: center;
+    color:brown;
+}
+
+.yyy{
+    height:100px;
+    width:100px;
+    display: block;
+    margin:auto;
+    padding-bottom: 25px;
+}
+
+#services{
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    color:brown;
+    border:2px solid brown;
+    justify-content: center;
+    align-items: center;
+}
+
+.first{
+    justify-content: center;
+    align-items: center;
+    border: 1px solid brown;
+    padding: 35px;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: rgb(228, 223, 220);
+}
+
+/* Our Clients */
+#clients{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: 10px;
+}
+
+#clients::before{
+    content: "";
+    position: absolute;
+    background: url('Food2.jpg') no-repeat center center/cover;
+    z-index: -1;
+    width: 100%;
+    opacity: 0.80;
+    height: 200px;
+    left: 0px;
+    top:0px;
+}
+
+#sub{
+    display: flex;
+}
+
+.sub{
+    height: 100px;
+    width:100px;
+    padding:10px;
+    margin:10px;
+}
+
+#zzz{
+    /* padding:100px; */
+    /* color:white; */
+    justify-content: center;
+    align-items: center;
+    color:black;
+}
+
+/* Contact Section */
+#contact{
+    margin-top: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:2px solid brown;
+    background-color: rgb(243 234 234);
+}
+
+#aaa{
+    margin-bottom: 10px;
+}
+
+.contact{
+    margin:2px;
+    padding:2px;
+}
+
+/* Founder */
+#founder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    border:2px solid brown;
+}
+
+.foun img{
+    height:200px;
+    width:100px;
+    display: block;
+    margin: auto;
+}
+
+.foun{
+    text-align: center;
+}
+
+/* Footer */
+.center{
+    text-align: center;
+    background-color: black;
+    color:white;
+    position:sticky;
+    bottom:0px;
+    left:0px;
+}
